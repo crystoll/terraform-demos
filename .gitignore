@@ -1,0 +1,7 @@
+.terraform/
+
+# Note: You need the .tfstate files, so if you don't check them in Git,
+# keep them safe somewhere else! Remote state will solve this issue nicely.
+# If you wish to check them into Git, remember that they may and often do contail secrets!
+*.tfstate
+*.tfstate.backup
