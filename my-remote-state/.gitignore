@@ -1,0 +1,4 @@
+# Note: I want to actually keep the .tfstate file here, with the remote state stack, because without it I would not be able to easily destroy or modify the remote state resources themselves. 
+# Furthermore, no secrets here, with these resources.
+# Furthermore, typically no parallelism here, just create these, and forget these.
+!*.tfstate
